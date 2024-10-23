@@ -105,7 +105,7 @@ class TuringMachine:
             print("达到最大步数，停止执行。")
 
 # 示例输入
-input_data = "q1 1 0 R q2, q2 0 1 R q1 | q2 b b H halt"
+input_data = "q1 1 0 R q2, q2 0 1 R q1 \n q2 b b H halt"
 parsed_instructions = parse_instructions(input_data)
 
 # 创建并运行图灵机
